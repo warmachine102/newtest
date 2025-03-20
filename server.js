@@ -113,9 +113,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     carouselSlide.addEventListener('transitionend', () => {
-        // Note: The cloning logic seems incomplete in the original code.
-        // If you intend to have infinite looping, this part would need to be implemented correctly.
-        // For now, I've kept the original logic.
         if (carouselItems[counter].id === 'lastClone') {
             carouselSlide.style.transition = "none";
             counter = carouselItems.length - 2;
