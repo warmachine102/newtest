@@ -1,0 +1,21 @@
+{
+  "name": "savouryai-culinary-creativity",
+  "version": "1.0.0",
+  "description": "A web application for generating recipes using AI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "http-server . -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recipe",
+    "ai",
+    "cooking",
+    "culinary"
+  ],
+  "author": "Your Name/Organization",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
